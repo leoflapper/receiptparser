@@ -1,0 +1,24 @@
+{
+    "name": "leoflapper/receipt-reader",
+    "description": "PHP package with examples of receipt reading",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "leoflapper",
+            "email": "leo@wefabric.nl"
+        }
+    ],
+    "require": {
+        "thiagoalessio/tesseract_ocr": "^2.11",
+        "illuminate/support": "^8.32",
+        "symfony/var-dumper": "^5.2",
+        "brick/money": "^0.5.1",
+        "spatie/data-transfer-object": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "ReceiptParser\\": "src/"
+        }
+    }
+}
