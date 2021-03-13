@@ -1,6 +1,6 @@
 {
-    "name": "leoflapper/receipt-reader",
-    "description": "PHP package with examples of receipt reading",
+    "name": "leoflapper/receipt-parser",
+    "description": "PHP package with examples of receipt parsing",
     "minimum-stability": "stable",
     "license": "proprietary",
     "authors": [
